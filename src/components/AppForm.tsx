@@ -13,7 +13,7 @@ export const AppForm = () => {
   });
 
   const submitData = (data: IFormData) => {
-    console.log('It worked', data);
+    alert(JSON.stringify(data, null, 2));
   };
 
   return (
